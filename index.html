@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
+    <title>Portfolio</title>
+    <script src="https://kit.fontawesome.com/15057286f2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/stylelarge.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="home">
+        <div class="tex">
+            <h1>Tanmay Gupta</h1>
+        </div>
+    </header>
+    <div class="bot">
+        <a href="#profile">
+            <span style="color:#f3efe0; font-size:7vh; " class="arrow" >
+                <i class="fas fa-angle-down"></i>
+            </span>
+        </a>
+    </div>
+
+
+    <main>
+        <div class="navi">
+            <div class="invi">
+            </div>
+            <div class="navibar">
+                <button class="menu" onclick="openmenu()"><img src="img/navbar.png" alt="menu"/></button>
+            </div>
+    
+            <nav class="menuclose" id="menubar">
+                <a href="#home" onclick="openmenu()">Home</a><br>
+                <a href="#profile" onclick="openmenu()">Profile</a><br>
+                <a href="#experience" onclick="openmenu()">Projects</a><br>
+                <a href="#education" onclick="openmenu()">Education</a><br>
+                <a href="#skills" onclick="openmenu()">Skills</a><br>
+                <a href="#contact" onclick="openmenu()">Contact</a><br>
+            </nav>
+        </div>
+
+
+        <section id="profile">
+            <h2>Profile</h2>
+            Student, Full Stack Developer, Coder
+            <hr>
+            <br>
+            <div class="fle">
+                <div class="one">
+                    <h3>About Me</h3>
+                    <p class="intro">
+                        Hello Everybody, I Am third year undergratuate (2019-2023) at Guru Gobind Singh Indraprastha University.
+                        Being a tech enthusiast I love to explore new technology. I have a strong passion for learing more and more.
+                    </p>
+                </div>
+                <div class="two">
+                    <img src="img/photo.jpg" alt="Profile Pic" class="ppic">
+                </div>
+                <br>
+                <div class="three">
+                    <h3>Details</h3>
+                    <p>
+                        <b>Name: </b>Tanmay Gupta<br>
+                        <b>Location: </b>New Delhi, India<br>
+                        <b>Mail: </b>tanmaygupta2408@gmail.com<br>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="even">
+            <h3>Personal Projects</h3>
+            <br>
+            <div class="contain">
+                <div class="left">
+                    <h4>Tesla Clone</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Technologies Used:<b> ReactJS, React Reveal, React-Redux, Styled-components</b></li>
+                            <li>Created a replica landing page of ‘Tesla.com’</li>
+                            <li><a href="https://github.com/TG2408/tesla-clone" target="blank" class="link">Apk Link</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="contain">
+                <div class="left">
+                    <h4>Weather Teller</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Technologies Used:<b> ReactJS, OpenWeather API</b></li>
+                            <li>The project is a real-time weather reporting web-app.</li>
+                            <li>It displays multiple weather parameters like temperature, humidity, pressure, speed, sunset time, etc. of any city across the globe.</li>
+                            <li><a href="https://github.com/TG2408/weatherApp" target="blank" class="link">Apk Link</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="contain">
+                <div class="left">
+                    <h4>Project E-Commerce</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Technologies Used: <b>Django, SQLite</b></li>
+                            <li>This project is an E-Commerce auction site with functionalities similar to eBay.com</li>
+                            <li>The specifications include Sign in / Create new account, Create / Close auction listings, Place bids / comments on listings, Add / Remove listings to watchlist, See listing according to categories, etc.</li>
+                            <li>It also involves a Django based admin interface, by which the site administrator should be able to view, add, edit, and delete any listings, comments, and bids made on the site.</li>
+                            <li><a href="https://github.com/TG2408/e-commerce" target="blank" class="link">Apk Link</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <div class="contain">
+                <div class="left">
+                    <h4>Project Encyclopaedia</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Technologies Used: <b>Django, SQLite, Markup Language (Markdown)</b></li>
+                            <li>The project is an online Encyclopedia similar to Wikipedia</li>
+                            <li>Specifications include Adding new encyclopedia entry, Editing existing entry, Searching a query using search box, Clicking “Random Page” in the sidebar takes user to random encyclopedia entry.</li>
+                            <li><a href="https://github.com/TG2408/encyclopedia" target="blank" class="link">Apk Link</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contain">
+                <div class="left">
+                    <h4>Project Bakery-API</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Technologies Used: <b>Django, Django REST Framework, SQLite</b></li>
+                            <li>This project is an Bakery API</li>
+                            <li>The specifications include 
+                                <ul>
+                                    <li>Register and Login</li>
+                                    <li>Add Ingredients like Milk, Eggs etc.</li>
+                                    <li>Create Product from list of ingredients</li>
+                                    <li>Get detail of Product (ingredients with quantity percentage, cost price, selling price etc.)</li>
+                                    <li>Manage inventory</li>
+                                </ul>
+                            <li><a href="https://github.com/TG2408/bakeryAPI" target="blank" class="link">Apk Link</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contain">
+                <div class="left">
+                    <h4>Sketch-N-Write Board</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Technologies Used: <b>HTML, CSS, JavaScript</b></li>
+                            <li>The project is a White Board similar to Microsoft Paint to perform various Paint operations using multiple colours, Writing text, etc</li>
+                            <li>The specifications involve Changing pen size & colour, Drawing content, Erasing content, etc.</li>
+                            </li>
+                            <li><a href="https://sketch-n-whiteboard.w3spaces.com/"  target="blank" class="link">Deployed</a></li>
+                            <li><a href="https://github.com/TG2408/sketch-N-WriteBoard" target="blank" class="link">Apk Link</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contain">
+                <div class="left">
+                    <h4>Custom Video Player</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Technologies Used: <b>HTML, CSS, JavaScript</b></li>
+                            <li>The project is a video player with YouTube like functionalities</li>
+                            <li>The specifications involve Video Thumbnails, Hover over duration bar, Scrolling on duration bar for move the video forward/ backward, Scrolling on Right half side to increase/decrease volume, Scrolling on Left half side for speed, Some other Control buttons, etc.</li>
+                            <li><a href=" https://github.com/TG2408/vedioPlayer" target="blank" class="link">Apk Link</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contain">
+                <div class="left">
+                    <h4>Virtual Drum</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Technologies Used: <b>HTML, CSS, JavaScript</b></li>
+                            <li>The Project is a virtual drum consisting of 9 different drum sound effects providing the users with a similar experience of playing a drum.</li>
+                            <li><a href="https://github.com/TG2408/JSDrumkit" target="blank" class="link">Apk Link</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p>
+                “Protons give an atom its identity, electrons its personality.”
+                <br>- Bill Bryson, A short history of nearly everything
+            </p>
+            <hr>
+            <br>
+
+            <div class="contain">
+                <div class="left">
+                    <h4>Guru Gobind Singh Indraprastha University</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Bachelor of Technology (IT)</li>
+                            <li>2019 - 2023</li>
+                            <li>New Delhi, India</li>
+                        </ul>
+                    </p>
+                </div>
+            </div> 
+            
+            <div class="contain">
+                <div class="left">
+                    <h4>Kulachi Hansraj Model School (CBSE)</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>High School</li>
+                            <li>2015 - 2019</li>
+                            <li>New Delhi, India</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <div class="contain">
+                <div class="left">
+                    <h4>Bal Bharati Public School (CBSE)</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>2005 - 2015</li>
+                            <li>New Delhi, India</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+            <h3>Achievements & Certificates</h3>
+            <br>
+
+            <div class="contain">
+                <div class="left">
+                    <h4>HackerRank</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Achieved 5 Star/ Gold Badge rating in “Python” at HackerRank</li>
+                            <li><a href="https://www.hackerrank.com/tanmaygupta2408" target="blank" class="link">View Badge</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="contain">
+                <div class="left">
+                    <h4>Responsive Web Design Certification</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Completed 300 Hours of “Responsive Web Design” coursework at freeCodeCamp.org</li>
+                            <li><a href="https://www.freecodecamp.org/certification/tanmaygupta24/responsive-web-design" target="blank" class="link">View Certificate</a></li>
+                            <li>This course taught me all about “Responsive Web Design”. It was a wonderful experience doing it.</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="contain">
+                <div class="left">
+                    <h4>HackerRank</h4>
+                </div>
+                <div class="right">
+                    <p class="pleft">
+                        <ul>
+                            <li>Achieved 4 Star rating during “10 Days of JavaScript” at HackerRank</li>
+                            <li><a href="https://www.hackerrank.com/tanmaygupta2408" target="blank" class="link">View Badge</a></li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            
+            <br>
+        </section>
+
+        <section id="skills" class="even">
+            <h2>Skills</h2>
+            <p>
+                “Life without knowledge is death in disguise.”
+                <br>- Talib Kweli
+            </p>
+            <hr>
+            <br>
+
+            <ul class="sklist">
+                <li>
+                    Python
+                    <br>
+                    <progress value="80" max="100"></progress>
+                </li>
+                <li>
+                    HTML
+                    <br>
+                    <progress value="95" max="100"></progress>
+                </li>
+                <li>
+                    CSS
+                    <br>
+                    <progress value="95" max="100"></progress>
+                </li>
+                <li>
+                    JavaScript
+                    <br>
+                    <progress value="90" max="100"></progress>
+                </li>
+                <li>
+                    React JS
+                    <br>
+                    <progress value="80" max="100"></progress>
+                </li>
+                <li>
+                    Node.js
+                    <br>
+                    <progress value="10" max="100"></progress>
+                </li>
+                <li>
+                    Express.js
+                    <br>
+                    <progress value="10" max="100"></progress>
+                </li>
+                <li>
+                    Django
+                    <br>
+                    <progress value="60" max="100"></progress>
+                </li>
+                <li>
+                    Django REST
+                    <br>
+                    <progress value="60" max="100"></progress>
+                </li>
+                <li>
+                    SQLite
+                    <br>
+                    <progress value="80" max="100"></progress>
+                </li>
+                <li>
+                    MongoDB
+                    <br>
+                    <progress value="10" max="100"></progress>
+                </li>
+                <li>
+                    Bootstrap
+                    <br>
+                    <progress value="80" max="100"></progress>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>
+                “If I had asked people what they wanted, they would have said faster horses. ”
+                <br>- Henry Ford
+            </p>
+            <hr>
+            <br>
+
+            <p>
+                
+                <a href="mailto:tanmaygupta2408@gmail.com">
+                    <i class="fas fa-envelope"></i> tanmaygupta2408@gmail.com
+                </a><br><br>
+                        
+                <a href="https://www.linkedin.com/in/tanmay-gupta-24242001/" target="blank">
+                    <i class="fab fa-linkedin-in"></i> linkedin.com/in/tanmay-gupta-24242001/
+                </a><br><br>
+
+                <a href="https://github.com/tg2408" target="blank">
+                    <i class="fab fa-github"></i></i> github.com/tg2408
+                </a><br><br>
+
+                
+            </p>
+
+        </section>
+
+    </main>
+</body>
